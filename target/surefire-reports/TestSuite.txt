@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.991 s <<< FAILURE! - in TestSuite
+runScenario(com.eco.uitests.RunnerTest)  Time elapsed: 3.251 s  <<< FAILURE!
+java.lang.NullPointerException
+

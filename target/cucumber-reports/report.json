@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 42410927000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User on Uptogether Login Page",
+            "match": {
+              "location": "Login.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7093767400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click on the uptogether login button",
+            "match": {
+              "location": "Login.uptogetherLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84671142300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User switches to the child window to enter the google account details and switches back to the parent window",
+            "match": {
+              "location": "Login.switchToChildWindow()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-26T16:32:00.200Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2545117200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Asserting the payout details",
+        "description": "",
+        "id": "financial-page-automation;asserting-the-payout-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1060391400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18277806700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User goes to Financial Page after switching to the parent window",
+            "match": {
+              "location": "Financial.loginUsingGoogleAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6220725600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User goes to the Change Payout method page",
+            "match": {
+              "location": "Financial.navigateToPayoutMethodPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5684556300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User opens the payout details page for the first option",
+            "match": {
+              "location": "Financial.openPayoutDetails_First()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 639013400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User asserts the payout details",
+            "match": {
+              "location": "Financial.assertPayoutDetails_First()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AssertPayoutDetails_First"
+          },
+          {
+            "name": "@Financial"
+          },
+          {
+            "name": "@Release"
+          }
+        ]
+      }
+    ],
+    "name": "Financial Page automation",
+    "description": "",
+    "id": "financial-page-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/eco/uitests/features/uptogether_ui/Financials.feature",
+    "tags": []
+  }
+]

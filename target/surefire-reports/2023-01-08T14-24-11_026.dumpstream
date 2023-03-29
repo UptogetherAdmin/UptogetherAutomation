@@ -1,0 +1,12 @@
+# Created at 2023-01-08T14:24:11.026
+Error opening data file ./eng.traineddata
+
+# Created at 2023-01-08T14:24:11.030
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+
+# Created at 2023-01-08T14:24:11.030
+Failed loading language 'eng'
+
+# Created at 2023-01-08T14:24:11.031
+Tesseract couldn't load any languages!
+

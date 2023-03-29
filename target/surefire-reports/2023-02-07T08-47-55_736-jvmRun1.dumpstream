@@ -1,0 +1,21 @@
+# Created at 2023-02-07T08:51:29.383
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2023-02-07T08:51:50.791
+Unexpected IOException with stream: [0m08:51:50,790 INFO  - com.eco.uitests.stepdef.Uptogether.Login - [user:] Killing the driver and session
+
+
+# Created at 2023-02-07T08:51:51.064
+Unexpected IOException: 8,1,com.eco.uitests.RunnerTest,runScenario(com.eco.uitests.RunnerTest),null,Expected condition failed: waiting for visibility of element located by By.xpath: //li[normalize-space()='The Code field is required'] (tried for 60 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for visibility of element located by By.xpath: //li[normalize-space()='The Code field is required'] (tried for 60 second(s) with 500 milliseconds interval),RunnerTest.runScenario \00BB Timeout Expected condition failed: waiting for visibi...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li[normalize-space()='The Code field is required'] (tried for 60 second(s) with 500 milliseconds interval)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using By.xpath: //li[normalize-space()='The Code field is required']\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'DESKTOP-6RQ6NCQ'\002C ip: '192.168.0.103'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.10'\000ADriver info: driver.version: unknown\000A
+
+
+# Created at 2023-02-07T08:51:51.292
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,com.eco.uitests.RunnerTest,null,null,null
+
+

@@ -1,0 +1,9 @@
+automation.uptogether@gmail.com / Admin@123
+automation.uptogether2@gmail.com / Admin@123
+
+Jenkins
+Username = uptogether
+Pwd = Admin@123
+email = automation.uptogether@gmail.com / Admin@123
+
+https://app.uptogether-develop.org

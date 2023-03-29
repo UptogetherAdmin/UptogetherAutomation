@@ -1,0 +1,3 @@
+<PatternLayout>
+  <pattern>%d %highlight{%p} %style{%C{1.} [%t] %m}{bold,green}%n</pattern>
+</PatternLayout>
