@@ -79,7 +79,7 @@ public class Login extends GenericWrapper {
        System.out.println("Browser launched successfully");
        Thread.sleep(10000);
        loginPage.getLandingPageText(driver);
-       Thread.sleep(6000);
+       Thread.sleep(5000);
        //loginPage.clickCloseIcon1(driver);
        //loginPage.clickCloseIcon2(driver);
        //loginPage.clickCloseIcon3(driver);
