@@ -199,6 +199,8 @@ public class LoginPage extends GenericWrapper {
 
     @FindBy(xpath = "//a[contains(@href,'/groups')]//article//div//div//span[contains(@aria-label,'Arrow Right icon')]//*[name()='svg']")
     WebElement groupIcon;
+    @FindBy(xpath = "//span[normalize-space()='Explore Groups']")
+    WebElement exploreGroup;
     @FindBy(xpath = "//p[contains(text(),'Groups are the heart of UpTogether. Use this space')]")
     WebElement groupText;
     public void clickGroupIcon(WebDriver driver) throws InterruptedException {
@@ -220,7 +222,7 @@ public class LoginPage extends GenericWrapper {
         //WebElement menu2 = driver.findElement(By.xpath("//a[@href='/groups']//article//div//div//span[@aria-label='Arrow Right icon']//*[name()='svg']"));
         //Hover(driver,menu2);
         Thread.sleep(2000);
-        groupIcon.click();
+        exploreGroup.click();
         Thread.sleep(5000);
         /*
         if(groupText.isDisplayed()){
