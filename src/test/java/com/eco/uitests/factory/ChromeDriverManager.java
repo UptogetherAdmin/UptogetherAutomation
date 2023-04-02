@@ -33,7 +33,7 @@ public class ChromeDriverManager extends DriverManager {
         chromeOptions.setCapability( "goog:loggingPrefs", logPrefs );
         chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("disable-dev-shm-usage");
-        chromeOptions.addArguments("--headless");
+        //chromeOptions.addArguments("--headless");
 
         /*
         DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
