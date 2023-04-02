@@ -18,7 +18,7 @@ public class ChromeDriverManager extends DriverManager {
         ChromeOptions chromeOptions = new ChromeOptions();
         String downloadFilepath = System.getProperty("user.dir");
         HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-        chromeOptions.addArguments("--window-size=1920,1080");
+        chromeOptions.addArguments("--window-size=1366,768");
 
         // Setting new download directory path
         Map<String, Object> prefs = new HashMap<String, Object>();
