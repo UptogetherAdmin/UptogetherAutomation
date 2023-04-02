@@ -217,8 +217,8 @@ public class LoginPage extends GenericWrapper {
 
 
     public void clickGroupIcon2(WebDriver driver) throws InterruptedException {
-        WebElement menu2 = driver.findElement(By.xpath("//a[@href='/groups']//article//div//div//span[@aria-label='Arrow Right icon']//*[name()='svg']"));
-        Hover(driver,menu2);
+        //WebElement menu2 = driver.findElement(By.xpath("//a[@href='/groups']//article//div//div//span[@aria-label='Arrow Right icon']//*[name()='svg']"));
+        //Hover(driver,menu2);
         Thread.sleep(2000);
         groupIcon.click();
         Thread.sleep(5000);
